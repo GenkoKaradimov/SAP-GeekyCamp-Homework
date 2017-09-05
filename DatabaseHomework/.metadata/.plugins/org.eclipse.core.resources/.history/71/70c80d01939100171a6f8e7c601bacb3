@@ -1,0 +1,24 @@
+package console.IO;
+
+import java.util.Scanner;
+
+public class UserInput {
+	
+	private static Scanner scanner;
+	private boolean isActive;
+	
+	public UserInput() {
+		isActive = true;
+	}
+	
+	public String waitInput() {
+		System.out.println("Make action with university database:");
+		
+		scanner = new Scanner(System.in);
+		String[] input = scanner.nextLine().split(" ");
+		
+		if(input[0] == "Exit") {
+			System.exit(0);
+		}
+	}
+}

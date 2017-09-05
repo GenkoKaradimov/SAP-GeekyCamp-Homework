@@ -1,0 +1,28 @@
+package database.control;
+
+import java.sql.Connection;
+
+public class Student {
+	private int id;
+	private String name;
+	private int facultyName;
+	private int age;
+
+	private Connection conn;
+
+	public Student(Connection conn) {
+		this.conn = conn;
+	}
+	
+	public String create(String name, int age, int facultyId) {
+		return "todo";
+	}
+	
+	public String all() {
+		return "todo";
+	}
+	
+	public String update() {
+		
+	}
+}

@@ -1,0 +1,20 @@
+package console.IO;
+
+public class ConsoleHelp {
+	public void generalHelp() {
+		
+	}
+	
+	public void studentsHelp() {
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		
+	}
+}

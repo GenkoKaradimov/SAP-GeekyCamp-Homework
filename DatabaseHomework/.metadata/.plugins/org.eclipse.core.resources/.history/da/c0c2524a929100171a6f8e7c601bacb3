@@ -1,0 +1,12 @@
+package console.IO;
+
+public class UserInput {
+	
+	private boolean isActive;
+	
+	private UserInput() {
+		isActive = true;
+	}
+	
+	public String 
+}

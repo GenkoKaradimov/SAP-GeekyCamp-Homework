@@ -1,0 +1,5 @@
+package database.control;
+
+public class Course {
+
+}

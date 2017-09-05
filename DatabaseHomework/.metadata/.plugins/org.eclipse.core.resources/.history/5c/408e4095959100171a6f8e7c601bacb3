@@ -1,0 +1,29 @@
+Exit
+Help
+
+-- actions about faculty
+Faculties Help
+Faculties Create <name>
+Faculties All
+Faculties Update <name-now> <new-name>
+Faculties Delete <name>
+
+-- actions about student
+Students Create <name> <age> <faculty-id>
+Students All
+Students Update <name-now> <age-now> <faculty-id-now> <new-name> <new-age> <new-faculty-id>
+Students  Delete <name> <age>
+
+Students Courses <student-name> <student-age>
+Students AddToCourse <student-name> <student-age> <course-name> <course-lecturer-name>
+Students RemoveFromCourse <student-name> <student-age> <course-name> <course-lecturer-name>
+
+-- action about course
+Courses Create <name> <lecturer-name>
+Courses All
+Courses Update <name-now> <lecturer-name-now> <new-name> <new-lecturer-name>
+Courses Delete <name> <lecturer-name>
+
+Courses Students <course-name> <course-lecturer-name>
+Courses AddStudent <student-name> <student-age> <course-name> <course-lecturer-name>
+Courses RemoveStudent <student-name> <student-age> <course-name> <course-lecturer-name>

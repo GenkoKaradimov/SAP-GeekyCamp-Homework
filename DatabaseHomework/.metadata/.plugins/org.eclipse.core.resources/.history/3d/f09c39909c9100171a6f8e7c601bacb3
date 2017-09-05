@@ -1,0 +1,8 @@
+package database.control;
+
+public class Context {
+	public Faculty faculty;
+	public Student student;
+	public Course course;
+	public StudentCourse sc;
+}

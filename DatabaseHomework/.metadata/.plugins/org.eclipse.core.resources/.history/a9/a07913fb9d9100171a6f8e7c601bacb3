@@ -1,0 +1,6 @@
+package database.control;
+
+public class Faculty {
+	private int id;
+	private String name;
+}

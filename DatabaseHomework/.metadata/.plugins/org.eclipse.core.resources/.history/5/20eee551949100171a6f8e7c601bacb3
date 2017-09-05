@@ -1,0 +1,15 @@
+Exit
+Help
+
+-- actions about student
+Faculties Create <name>
+Faculties All
+Faculties Update <name-now> <new-name>
+Faculties Delete <name>
+
+
+Students Create <name> <age>
+Students All
+Students Update <name-now> <age-now> <new-name> <new-age>
+Student  Delete <name> <age>
+

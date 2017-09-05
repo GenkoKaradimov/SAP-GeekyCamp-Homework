@@ -1,0 +1,11 @@
+package console.IO;
+
+public class ConsoleHelp {
+	public void generalHelp() {
+		
+	}
+	
+	public void studentsHelp() {
+		
+	}
+}

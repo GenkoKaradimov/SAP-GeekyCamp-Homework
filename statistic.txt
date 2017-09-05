@@ -1,4 +1,0 @@
--day 1
- + task 1 --> to debug
- + task 2 --> done
- + task 2+ --> 
