@@ -15,18 +15,18 @@ public class StudentCourse {
 	}
 	
 	public String getStudentCourses(String name, int age) {
-		return "todo";
+		return "todo get courses for student";
 	}
 	
 	public String addStudentToCourse(String studentName, int age, String courseName, String lecturerName) {
-		return "todo";
+		return "todo connect student and course";
 	}
 	
 	public String removeStudentFromCourse(String studentName, int age, String courseName, String lecturerName) {
-		return "todo";
+		return "todo disconect student and course";
 	}
 	
 	public String getCourseStudents(String courseName, String lecturerName) {
-		return "todo";
+		return "todo get students for course";
 	}
 }

@@ -14,18 +14,18 @@ public class Course {
 	}
 	
 	public String create(String name, String lecturerName) {
-		return "todo";
+		return "todo create course";
 	}
 	
 	public String all() {
-		return "todo";
+		return "todo course all";
 	}
 	
 	public String update(String name, String lecturerName, String newName, String newLecturerName) {
-		return "todo";
+		return "todo course update";
 	}
 	
 	public String delete(String name, String lecturerName) {
-		return "todo";
+		return "todo course del";
 	}
 }

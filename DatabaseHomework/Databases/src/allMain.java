@@ -19,7 +19,7 @@ public class allMain {
 			prepareStatement = conn.prepareStatement("SELECT * FROM Student");
 			ResultSet executeQuery = prepareStatement.executeQuery();
 			while(executeQuery.next()) {
-				System.out.println(executeQuery.getString(2) + " | " + executeQuery.getString(3));
+				System.out.println(executeQuery.getString(1) + " " + executeQuery.getString(2) + " " + executeQuery.getString(3));
 			}
 		}catch(Exception e) {
 			System.out.println(e);

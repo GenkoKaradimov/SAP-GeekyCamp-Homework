@@ -13,18 +13,18 @@ public class Faculty {
 	}
 	
 	public String create(String name) {
-		return "todo";
+		return "todo faculti create";
 	}
 	
 	public String all() {
-		return "todo";
+		return "todo faculty all";
 	}
 	
 	public String update(String name, String newName) {
-		return "todo";
+		return "todo faculti update";
 	}
 	
 	public String delete(String name) {
-		return "todo";
+		return "todo faculty del";
 	}
 }

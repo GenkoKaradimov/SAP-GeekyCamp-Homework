@@ -15,18 +15,18 @@ public class Student {
 	}
 	
 	public String create(String name, int age, int facultyId) {
-		return "todo";
+		return "todo faculty create";
 	}
 	
 	public String all() {
-		return "todo";
+		return "todo faculty all";
 	}
 	
 	public String update(String name, int age, int facultyId, String newName, int newAge, int newFacultyId) {
-		return "todo";
+		return "todo faculty update";
 	}
 	
 	public String delete(String name, int age, int facultyId) {
-		return "todo";
+		return "todo faculty del";
 	}
 }
