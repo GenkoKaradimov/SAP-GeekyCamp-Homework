@@ -24,4 +24,8 @@ public class Context {
 	public Connection connection() {
 		return this.conn;
 	}
+	
+	public void closeConnection() throws SQLException {
+		this.conn.close();
+	}
 }

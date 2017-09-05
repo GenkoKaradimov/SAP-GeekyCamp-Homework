@@ -13,19 +13,19 @@ public class Course {
 		this.conn = conn;
 	}
 	
-	public String create(String name, String lecturerName) {
-		return "todo create course";
+	public void create(String name, String lecturerName) {
+		
 	}
 	
-	public String all() {
-		return "todo course all";
+	public void all() {
+
 	}
 	
-	public String update(String name, String lecturerName, String newName, String newLecturerName) {
-		return "todo course update";
+	public void update(String name, String lecturerName, String newName, String newLecturerName) {
+		
 	}
 	
-	public String delete(String name, String lecturerName) {
-		return "todo course del";
+	public void delete(String name, String lecturerName) {
+		
 	}
 }

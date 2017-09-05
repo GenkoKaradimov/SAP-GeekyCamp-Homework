@@ -14,19 +14,19 @@ public class StudentCourse {
 		this.conn = conn;
 	}
 	
-	public String getStudentCourses(String name, int age) {
-		return "todo get courses for student";
+	public void getStudentCourses(String name, int age) {
+		
 	}
 	
-	public String addStudentToCourse(String studentName, int age, String courseName, String lecturerName) {
-		return "todo connect student and course";
+	public void addStudentToCourse(String studentName, int age, String courseName, String lecturerName) {
+		
 	}
 	
-	public String removeStudentFromCourse(String studentName, int age, String courseName, String lecturerName) {
-		return "todo disconect student and course";
+	public void removeStudentFromCourse(String studentName, int age, String courseName, String lecturerName) {
+		
 	}
 	
-	public String getCourseStudents(String courseName, String lecturerName) {
-		return "todo get students for course";
+	public void getCourseStudents(String courseName, String lecturerName) {
+		
 	}
 }

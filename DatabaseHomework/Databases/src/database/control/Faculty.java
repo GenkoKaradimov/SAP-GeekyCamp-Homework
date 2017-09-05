@@ -12,19 +12,19 @@ public class Faculty {
 		this.conn = conn;
 	}
 	
-	public String create(String name) {
-		return "todo faculti create";
+	public void create(String name) {
+		
 	}
 	
-	public String all() {
-		return "todo faculty all";
+	public void all() {
+		
 	}
 	
-	public String update(String name, String newName) {
-		return "todo faculti update";
+	public void update(String name, String newName) {
+		
 	}
 	
-	public String delete(String name) {
-		return "todo faculty del";
+	public void delete(String name) {
+		
 	}
 }

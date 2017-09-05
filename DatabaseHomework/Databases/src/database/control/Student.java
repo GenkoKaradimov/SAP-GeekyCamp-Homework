@@ -1,6 +1,9 @@
 package database.control;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class Student {
 	private int id;
@@ -13,20 +16,31 @@ public class Student {
 	public Student(Connection conn) {
 		this.conn = conn;
 	}
-	
-	public String create(String name, int age, int facultyId) {
-		return "todo faculty create";
+
+	public void create(String name, int age, int facultyId) {
+
 	}
-	
-	public String all() {
-		return "todo faculty all";
+
+	public void all() throws SQLException {
+		PreparedStatement prepareStatement = null;
+
+		try {
+			prepareStatement = conn.prepareStatement("SELECT * FROM student");
+			ResultSet executeQuery = prepareStatement.executeQuery();
+			while (executeQuery.next()) {
+				System.out.println(
+						executeQuery.getString(1) + " " + executeQuery.getString(2) + " " + executeQuery.getString(3));
+			}
+		} catch (Exception e) {
+			System.out.println(e);
+		}
 	}
-	
-	public String update(String name, int age, int facultyId, String newName, int newAge, int newFacultyId) {
-		return "todo faculty update";
+
+	public void update(String name, int age, int facultyId, String newName, int newAge, int newFacultyId) {
+
 	}
-	
-	public String delete(String name, int age, int facultyId) {
-		return "todo faculty del";
+
+	public void delete(String name, int age, int facultyId) {
+
 	}
 }
