@@ -1,8 +1,0 @@
-package database.control;
-
-public class StudentCourse {
-	private int id;
-	private int courseId;
-	private int studentId;
-	private int mark;
-}
