@@ -14,7 +14,7 @@ public class Folder extends BaseObject{
 	}
 	
 	// read	
-	public String toStringC() {
+	public String more() {
 		StringBuilder str = new StringBuilder();
 		str.append(this.name);
 		str.append(" ");
@@ -27,26 +27,34 @@ public class Folder extends BaseObject{
 		return str.toString();
 	}
 	
-	public String getSubfolders() {
-		StringBuilder str = new StringBuilder();
+	public String[] getSubfolders() {
 		int size = this.subfolders.size();
+		String[] str = new String[size];
 		
 		for(int i = 0; i < size; i++) {
-			str.append(this.subfolders.get(i) + " ");				
+			str[i] = this.subfolders.get(i).toString();				
 		}
 		
-		return str.toString();
+		return str;
 	}
 	
-	public String getFiles() {
-		StringBuilder str = new StringBuilder();
+	public String[] getFiles() {
 		int size = this.files.size();
+		String[] str = new String[size];
 		
 		for(int i = 0; i < size; i++) {
-			str.append(this.files.get(i) + " ");				
+			str[i] = this.files.get(i).toString();				
 		}
 		
-		return str.toString();
+		return str;
+	}
+	
+	public void addSubFolder(Folder folder) {
+		this.subfolders.add(folder);
+	}
+	
+	public void addFile(File file) {
+		this.files.add(file);
 	}
 	
 	// navigate

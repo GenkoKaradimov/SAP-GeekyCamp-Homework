@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		FileSystem mfs = new FileSystem();
+		FileSystem imfs = new FileSystem();
 		
 		
 	}

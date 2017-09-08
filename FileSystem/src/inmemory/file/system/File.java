@@ -12,7 +12,7 @@ public class File extends BaseObject {
 	}	
 	
 	// read
-	public String toStringC() {
+	public String more() {
 		StringBuilder str = new StringBuilder();
 		str.append(this.name);
 		str.append(" ");
