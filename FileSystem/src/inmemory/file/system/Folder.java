@@ -1,5 +1,6 @@
 package inmemory.file.system;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Folder extends BaseObject{
@@ -7,10 +8,10 @@ public class Folder extends BaseObject{
 	protected List<File> files;
 	
 	// create
-	public Folder(String name, Folder parent,List<Folder> subfolders, List<File> files) {
+	public Folder(String name, Folder parent) {
 		super(name, parent);
-		this.subfolders = subfolders;
-		this.files = files;
+		this.subfolders = new ArrayList<Folder>();
+		this.files = new ArrayList<File>();
 	}
 	
 	// read	

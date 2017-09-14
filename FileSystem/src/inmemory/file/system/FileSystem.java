@@ -6,7 +6,7 @@ public class FileSystem {
 	private String pathFolder;
 	
 	public FileSystem() {
-		folder = new Folder("root", null, null, null);
+		folder = new Folder("root", null);
 		pathFolder = "root";
 	}
 	
@@ -38,7 +38,7 @@ public class FileSystem {
 	// write
 	public void createFolder(String name) {
 		// createFolder and enter it
-		Folder nf = new Folder(name, this.folder, null, null);
+		Folder nf = new Folder(name, this.folder);
 		this.folder.addSubFolder(nf);
 		enterFolder(name);
 	}
@@ -52,7 +52,7 @@ public class FileSystem {
 	// navigation 
 	public void enterFolder(String name) {
 		this.folder = folder.getSubfolder(name);
-		this.pathFolder = this.pathFolder + "\\" + name; 
+		this.pathFolder = this.pathFolder + "/" + name; 
 	}
 	
 	public void backFolder() {
@@ -60,11 +60,13 @@ public class FileSystem {
 		this.folder = this.folder.parent;
 		
 		// change path
-		String[] path = this.pathFolder.split("\\");
+		String[] path = this.pathFolder.split("/");
 		String[] newPath = new String[path.length - 1];
-		for(int i = 0; i < path.length; i++) {
-			newPath[i] = path[i];
+
+		for(int i = 0; i < path.length - 1; i++) {
+			newPath[i] = path[i] + "/";
 		}
-		this.pathFolder = newPath.toString();
+		
+		this.pathFolder = path.toString();
 	}
 }
