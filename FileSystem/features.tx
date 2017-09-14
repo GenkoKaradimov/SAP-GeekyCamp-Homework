@@ -1,0 +1,2 @@
+--- bugs
+1. if files and subfolders are null - smth.size()

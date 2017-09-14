@@ -1,0 +1,11 @@
+C:\Users\genko\Desktop\Phonebook\Phonebook\bin\Debug\netcoreapp1.1\Phonebook.deps.json
+C:\Users\genko\Desktop\Phonebook\Phonebook\bin\Debug\netcoreapp1.1\Phonebook.runtimeconfig.json
+C:\Users\genko\Desktop\Phonebook\Phonebook\bin\Debug\netcoreapp1.1\Phonebook.runtimeconfig.dev.json
+C:\Users\genko\Desktop\Phonebook\Phonebook\bin\Debug\netcoreapp1.1\Phonebook.dll
+C:\Users\genko\Desktop\Phonebook\Phonebook\obj\Debug\netcoreapp1.1\Phonebook.csprojResolveAssemblyReference.cache
+C:\Users\genko\Desktop\Phonebook\Phonebook\obj\Debug\netcoreapp1.1\Phonebook.csproj.CoreCompileInputs.cache
+C:\Users\genko\Desktop\Phonebook\Phonebook\obj\Debug\netcoreapp1.1\Phonebook.AssemblyInfoInputs.cache
+C:\Users\genko\Desktop\Phonebook\Phonebook\obj\Debug\netcoreapp1.1\Phonebook.AssemblyInfo.cs
+C:\Users\genko\Desktop\Phonebook\Phonebook\bin\Debug\netcoreapp1.1\Phonebook.pdb
+C:\Users\genko\Desktop\Phonebook\Phonebook\obj\Debug\netcoreapp1.1\Phonebook.dll
+C:\Users\genko\Desktop\Phonebook\Phonebook\obj\Debug\netcoreapp1.1\Phonebook.pdb

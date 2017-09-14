@@ -1,0 +1,18 @@
+﻿@model Phonebook.ViewModels.Record.IndexViewModel
+
+@if (Model == null || Model.Records.Count() == 0)
+{
+	<h2>Няма записи</h2>
+}
+else
+{
+	<br /><br />
+	<ul class="list-group">
+		@foreach (var r in Model.Records)
+		{
+		<li class="list-group-item">@r.Id - @r.Name - @r.Phone <a href="/home/delete/@(r.Id)" class="glyphicon glyphicon-remove"></a></li>
+		}
+	</ul>
+}
+
+<a href="/home/addrecord" class="btn btn-default">Добави</a>
