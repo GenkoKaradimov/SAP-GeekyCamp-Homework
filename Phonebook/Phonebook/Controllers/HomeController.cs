@@ -16,18 +16,10 @@ namespace Phonebook.Controllers
 			_context = context;
 		}
 
-		[HttpDelete]
-		public IActionResult Delete(int id)
+		[HttpGet]
+		public IActionResult Index()
 		{
-			var record = _context.Records.FirstOrDefault(x => x.Id == id);
-
-			if(record == null)
-				return RedirectToAction("Index");
-
-			_context.Records.Remove(record);
-			_context.SaveChanges();
-
-			return RedirectToAction("Index");
+			return View();
 		}
 	}
 }

@@ -19,6 +19,12 @@ namespace Phonebook.Controllers
 		}
 
 		[HttpGet]
+		public IActionResult Index()
+		{
+			return RedirectToAction("Profile");
+		}
+
+		[HttpGet]
 		public IActionResult Home()
 		{
 			return View();
@@ -33,7 +39,14 @@ namespace Phonebook.Controllers
 		[HttpPost]
 		public IActionResult Login(LoginViewModel model)
 		{
-			return View();
+			var user = _context.Users.FirstOrDefault(x => x.Email == model.Email && x.Password == model.Password);
+
+			if (user == null)
+				return View();
+
+			HttpContext.Session.SetString("UserId", user.Id.ToString());
+
+			return RedirectToAction("Index", "Record");
 		}
 
 		[HttpGet]
@@ -62,6 +75,13 @@ namespace Phonebook.Controllers
 		[HttpGet]
 		public IActionResult Profile()
 		{
+			int id = int.Parse(HttpContext.Session.GetString("UserId"));
+			Entities.User user = _context.Users.FirstOrDefault(x => x.Id == id);
+
+			if (user == null)
+				return RedirectToAction("Login");
+
+			// todo - da se pokazva profilna stranica
 			return View();
 		}
 

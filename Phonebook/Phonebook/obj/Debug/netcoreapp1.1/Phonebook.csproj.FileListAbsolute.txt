@@ -9,3 +9,14 @@ C:\Users\genko\Desktop\Phonebook\Phonebook\obj\Debug\netcoreapp1.1\Phonebook.Ass
 C:\Users\genko\Desktop\Phonebook\Phonebook\bin\Debug\netcoreapp1.1\Phonebook.pdb
 C:\Users\genko\Desktop\Phonebook\Phonebook\obj\Debug\netcoreapp1.1\Phonebook.dll
 C:\Users\genko\Desktop\Phonebook\Phonebook\obj\Debug\netcoreapp1.1\Phonebook.pdb
+D:\SAP-GeekyCamp-Homework\Phonebook\Phonebook\bin\Debug\netcoreapp1.1\Phonebook.deps.json
+D:\SAP-GeekyCamp-Homework\Phonebook\Phonebook\bin\Debug\netcoreapp1.1\Phonebook.runtimeconfig.json
+D:\SAP-GeekyCamp-Homework\Phonebook\Phonebook\bin\Debug\netcoreapp1.1\Phonebook.runtimeconfig.dev.json
+D:\SAP-GeekyCamp-Homework\Phonebook\Phonebook\bin\Debug\netcoreapp1.1\Phonebook.dll
+D:\SAP-GeekyCamp-Homework\Phonebook\Phonebook\bin\Debug\netcoreapp1.1\Phonebook.pdb
+D:\SAP-GeekyCamp-Homework\Phonebook\Phonebook\obj\Debug\netcoreapp1.1\Phonebook.csprojResolveAssemblyReference.cache
+D:\SAP-GeekyCamp-Homework\Phonebook\Phonebook\obj\Debug\netcoreapp1.1\Phonebook.csproj.CoreCompileInputs.cache
+D:\SAP-GeekyCamp-Homework\Phonebook\Phonebook\obj\Debug\netcoreapp1.1\Phonebook.AssemblyInfoInputs.cache
+D:\SAP-GeekyCamp-Homework\Phonebook\Phonebook\obj\Debug\netcoreapp1.1\Phonebook.AssemblyInfo.cs
+D:\SAP-GeekyCamp-Homework\Phonebook\Phonebook\obj\Debug\netcoreapp1.1\Phonebook.dll
+D:\SAP-GeekyCamp-Homework\Phonebook\Phonebook\obj\Debug\netcoreapp1.1\Phonebook.pdb

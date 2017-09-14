@@ -32,7 +32,7 @@ namespace Phonebook
 			// Add framework services.
 			services.AddMvc();
 
-			var connection = @"Server=(localdb)\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;";
+			var connection = @"Server=(localdb)\MSSQLLocalDB;Integrated Security=True;Connect Timeout=30;";
 			services.AddDbContext<Context>(options => options.UseSqlServer(connection));
 
 			// Adds a default in-memory implementation of IDistributedCache.

@@ -10367,11 +10367,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\genko\\Desktop\\Phonebook\\Phonebook\\Phonebook.csproj",
+      "projectUniqueName": "D:\\SAP-GeekyCamp-Homework\\Phonebook\\Phonebook\\Phonebook.csproj",
       "projectName": "Phonebook",
-      "projectPath": "C:\\Users\\genko\\Desktop\\Phonebook\\Phonebook\\Phonebook.csproj",
+      "projectPath": "D:\\SAP-GeekyCamp-Homework\\Phonebook\\Phonebook\\Phonebook.csproj",
       "packagesPath": "C:\\Users\\genko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\genko\\Desktop\\Phonebook\\Phonebook\\obj\\",
+      "outputPath": "D:\\SAP-GeekyCamp-Homework\\Phonebook\\Phonebook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\genko\\AppData\\Roaming\\NuGet\\NuGet.Config",

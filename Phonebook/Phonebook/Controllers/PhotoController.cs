@@ -18,7 +18,7 @@ namespace Phonebook.Controllers
 		}
 
 		[HttpGet]
-		public FileResult Photo(int id)
+		public FileResult Photo(int id, int key)
 		{
 			return null;
 		}
